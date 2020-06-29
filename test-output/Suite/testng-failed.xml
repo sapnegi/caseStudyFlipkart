@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="System" value="pc2"/>
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCase.flipkarHomePage">
+        <methods>
+          <include name="HoverElectronics"/>
+          <include name="verifyMILabel"/>
+        </methods>
+      </class> <!-- TestCase.flipkarHomePage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCase.flipkarHomePage">
+        <methods>
+          <include name="enterPindcode"/>
+        </methods>
+      </class> <!-- TestCase.flipkarHomePage -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
