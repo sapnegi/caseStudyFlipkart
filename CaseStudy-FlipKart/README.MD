@@ -1,1 +1,0 @@
-thIS IS TEXT FILE
