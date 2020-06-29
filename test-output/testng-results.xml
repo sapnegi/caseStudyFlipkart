@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="7" total="28" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="121049" started-at="2020-06-15T07:42:35Z" finished-at="2020-06-15T07:44:36Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="flipkarHomePage.HoverElectronics()[pri:3, instance:TestCase.flipkarHomePage@3c153a1]" name="HoverElectronics" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.closeModalBox()[pri:2, instance:TestCase.flipkarHomePage@3c153a1]" name="closeModalBox" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.openURL()[pri:1, instance:TestCase.flipkarHomePage@3c153a1]" name="openURL" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.quitBrowser()[pri:12, instance:TestCase.flipkarHomePage@3c153a1]" name="quitBrowser" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.verifyMILabel()[pri:4, instance:TestCase.flipkarHomePage@3c153a1]" name="verifyMILabel" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.HoverElectronics()[pri:3, instance:TestCase.flipkarHomePage@6107227e]" name="HoverElectronics" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.closeModalBox()[pri:2, instance:TestCase.flipkarHomePage@6107227e]" name="closeModalBox" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.openURL()[pri:1, instance:TestCase.flipkarHomePage@6107227e]" name="openURL" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.quitBrowser()[pri:12, instance:TestCase.flipkarHomePage@6107227e]" name="quitBrowser" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.verifyMILabel()[pri:4, instance:TestCase.flipkarHomePage@6107227e]" name="verifyMILabel" class="TestCase.flipkarHomePage"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="flipkarHomePage.quitBrowser()[pri:12, instance:TestCase.flipkarHomePage@3c153a1]" name="quitBrowser" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.ChangePriceSlider()[pri:5, instance:TestCase.flipkarHomePage@6107227e]" name="ChangePriceSlider" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.SearchRedmi()[pri:7, instance:TestCase.flipkarHomePage@6107227e]" name="SearchRedmi" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.SelectPriceDropDown()[pri:6, instance:TestCase.flipkarHomePage@6107227e]" name="SelectPriceDropDown" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.enterPindcode()[pri:11, instance:TestCase.flipkarHomePage@6107227e]" name="enterPindcode" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.playVideo()[pri:10, instance:TestCase.flipkarHomePage@6107227e]" name="playVideo" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.productClick()[pri:8, instance:TestCase.flipkarHomePage@6107227e]" name="productClick" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.quitBrowser()[pri:12, instance:TestCase.flipkarHomePage@6107227e]" name="quitBrowser" class="TestCase.flipkarHomePage"/>
+        <method signature="flipkarHomePage.verifyProductAmount()[pri:9, instance:TestCase.flipkarHomePage@6107227e]" name="verifyProductAmount" class="TestCase.flipkarHomePage"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test1" duration-ms="28356" started-at="2020-06-15T07:42:35Z" finished-at="2020-06-15T07:43:03Z">
+      <class name="TestCase.flipKartHomePageGrid">
+        <test-method status="PASS" signature="openURL(java.lang.String)[pri:1, instance:TestCase.flipKartHomePageGrid@3c87521]" name="openURL" duration-ms="20814" started-at="2020-06-15T07:42:35Z" finished-at="2020-06-15T07:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="closeModalBox()[pri:2, instance:TestCase.flipKartHomePageGrid@3c87521]" name="closeModalBox" duration-ms="1974" started-at="2020-06-15T07:42:55Z" finished-at="2020-06-15T07:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeModalBox -->
+        <test-method status="PASS" signature="HoverElectronics()[pri:3, instance:TestCase.flipKartHomePageGrid@3c87521]" name="HoverElectronics" duration-ms="1329" started-at="2020-06-15T07:42:57Z" finished-at="2020-06-15T07:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverElectronics -->
+        <test-method status="PASS" signature="verifyMILabel()[pri:4, instance:TestCase.flipKartHomePageGrid@3c87521]" name="verifyMILabel" duration-ms="4112" started-at="2020-06-15T07:42:59Z" finished-at="2020-06-15T07:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMILabel -->
+      </class> <!-- TestCase.flipKartHomePageGrid -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="57815" started-at="2020-06-15T07:43:03Z" finished-at="2020-06-15T07:44:01Z">
+      <class name="TestCase.flipkarHomePage">
+        <test-method status="PASS" signature="openURL()[pri:1, instance:TestCase.flipkarHomePage@3c153a1]" name="openURL" duration-ms="19055" started-at="2020-06-15T07:43:03Z" finished-at="2020-06-15T07:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="closeModalBox()[pri:2, instance:TestCase.flipkarHomePage@3c153a1]" name="closeModalBox" duration-ms="1825" started-at="2020-06-15T07:43:22Z" finished-at="2020-06-15T07:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeModalBox -->
+        <test-method status="FAIL" signature="HoverElectronics()[pri:3, instance:TestCase.flipkarHomePage@3c153a1]" name="HoverElectronics" duration-ms="15734" started-at="2020-06-15T07:43:24Z" finished-at="2020-06-15T07:43:40Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Mi' and contains(@href,'mobiles/mi')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K87M0HO', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SAPNAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9bffbb5ffa2b74a92603b5d5fd486943]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Mi' and contains(@href,'mobiles/mi')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K87M0HO', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SAPNAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9bffbb5ffa2b74a92603b5d5fd486943
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at TestCase.flipkarHomePage.HoverElectronics(flipkarHomePage.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverElectronics -->
+        <test-method status="FAIL" signature="verifyMILabel()[pri:4, instance:TestCase.flipkarHomePage@3c153a1]" name="verifyMILabel" duration-ms="20147" started-at="2020-06-15T07:43:40Z" finished-at="2020-06-15T07:44:00Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for text ('Latest from MI') to be present in element found by By.xpath: //div[@class='oAWPz2']//p[contains(text(),'Latest')] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Latest from MI') to be present in element found by By.xpath: //div[@class='oAWPz2']//p[contains(text(),'Latest')] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at TestCase.flipkarHomePage.verifyMILabel(flipkarHomePage.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oAWPz2']//p[contains(text(),'Latest')]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K87M0HO', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SAPNAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9bffbb5ffa2b74a92603b5d5fd486943
+*** Element info: {Using=xpath, value=//div[@class='oAWPz2']//p[contains(text(),'Latest')]}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$13.apply(ExpectedConditions.java:382)
+at org.openqa.selenium.support.ui.ExpectedConditions$13.apply(ExpectedConditions.java:378)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMILabel -->
+        <test-method status="PASS" signature="quitBrowser()[pri:12, instance:TestCase.flipkarHomePage@3c153a1]" name="quitBrowser" duration-ms="990" started-at="2020-06-15T07:44:00Z" finished-at="2020-06-15T07:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestCase.flipkarHomePage -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="34633" started-at="2020-06-15T07:44:01Z" finished-at="2020-06-15T07:44:36Z">
+      <class name="TestCase.flipkarHomePage">
+        <test-method status="PASS" signature="openURL()[pri:1, instance:TestCase.flipkarHomePage@6107227e]" name="openURL" duration-ms="12874" started-at="2020-06-15T07:44:01Z" finished-at="2020-06-15T07:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="closeModalBox()[pri:2, instance:TestCase.flipkarHomePage@6107227e]" name="closeModalBox" duration-ms="1136" started-at="2020-06-15T07:44:14Z" finished-at="2020-06-15T07:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeModalBox -->
+        <test-method status="PASS" signature="HoverElectronics()[pri:3, instance:TestCase.flipkarHomePage@6107227e]" name="HoverElectronics" duration-ms="1834" started-at="2020-06-15T07:44:15Z" finished-at="2020-06-15T07:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverElectronics -->
+        <test-method status="PASS" signature="verifyMILabel()[pri:4, instance:TestCase.flipkarHomePage@6107227e]" name="verifyMILabel" duration-ms="3267" started-at="2020-06-15T07:44:17Z" finished-at="2020-06-15T07:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMILabel -->
+        <test-method status="PASS" signature="ChangePriceSlider()[pri:5, instance:TestCase.flipkarHomePage@6107227e]" name="ChangePriceSlider" duration-ms="122" started-at="2020-06-15T07:44:20Z" finished-at="2020-06-15T07:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePriceSlider -->
+        <test-method status="PASS" signature="SelectPriceDropDown()[pri:6, instance:TestCase.flipkarHomePage@6107227e]" name="SelectPriceDropDown" duration-ms="1045" started-at="2020-06-15T07:44:20Z" finished-at="2020-06-15T07:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPriceDropDown -->
+        <test-method status="PASS" signature="SearchRedmi()[pri:7, instance:TestCase.flipkarHomePage@6107227e]" name="SearchRedmi" duration-ms="3110" started-at="2020-06-15T07:44:21Z" finished-at="2020-06-15T07:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchRedmi -->
+        <test-method status="PASS" signature="productClick()[pri:8, instance:TestCase.flipkarHomePage@6107227e]" name="productClick" duration-ms="1366" started-at="2020-06-15T07:44:24Z" finished-at="2020-06-15T07:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productClick -->
+        <test-method status="PASS" signature="verifyProductAmount()[pri:9, instance:TestCase.flipkarHomePage@6107227e]" name="verifyProductAmount" duration-ms="7836" started-at="2020-06-15T07:44:26Z" finished-at="2020-06-15T07:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAmount -->
+        <test-method status="PASS" signature="playVideo()[pri:10, instance:TestCase.flipkarHomePage@6107227e]" name="playVideo" duration-ms="77" started-at="2020-06-15T07:44:34Z" finished-at="2020-06-15T07:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playVideo -->
+        <test-method status="FAIL" signature="enterPindcode()[pri:11, instance:TestCase.flipkarHomePage@6107227e]" name="enterPindcode" duration-ms="166" started-at="2020-06-15T07:44:34Z" finished-at="2020-06-15T07:44:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"._3X4tVa"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K87M0HO', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SAPNAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 10fb218fde34677a16629198e42fca9a
+*** Element info: {Using=class name, value=_3X4tVa}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"._3X4tVa"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-K87M0HO', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SAPNAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 10fb218fde34677a16629198e42fca9a
+*** Element info: {Using=class name, value=_3X4tVa}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestCase.flipkarHomePage.enterPindcode(flipkarHomePage.java:117)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPindcode -->
+        <test-method status="PASS" signature="quitBrowser()[pri:12, instance:TestCase.flipkarHomePage@6107227e]" name="quitBrowser" duration-ms="1741" started-at="2020-06-15T07:44:34Z" finished-at="2020-06-15T07:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- TestCase.flipkarHomePage -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
