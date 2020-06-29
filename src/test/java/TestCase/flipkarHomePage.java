@@ -28,7 +28,7 @@ public class flipkarHomePage extends BrowserClass{
 	
 	WebDriverWait wait;
 
-	
+	// this is pageClass
 	@Test(groups= {"Sanity"}, priority = 1)
 	public void openURL() throws InterruptedException {	
 		openBrowser("chrome");
