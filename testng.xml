@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<test name="Test1">
+<parameter name="System" value="pc1"></parameter>
+    <classes>
+      <class name="TestCase.flipKartHomePageGrid"/>
+    </classes>
+</test> 
+  
+<test thread-count="5" name="Test2">
+<parameter name="System" value="pc2"></parameter>
+<groups>
+	<run>
+		<include name="Sanity"></include>	
+	</run></groups>	
+    <classes>
+      <class name="TestCase.flipkarHomePage"/>
+    </classes>
+</test> 
+ 
+ <test thread-count="5" name="Test3">
+<groups>
+	<run>
+		<include name="Sanity"></include>
+		<include name="Regression"></include>	
+	</run>
+</groups>	
+    <classes>
+      <class name="TestCase.flipkarHomePage"/>
+    </classes>
+</test> 
+ 
+</suite> <!-- Suite -->
