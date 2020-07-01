@@ -1,1 +1,1 @@
-# caseStudyFlipKart
+# caseStudyMercuryTours
