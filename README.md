@@ -1,1 +1,1 @@
-# caseStudyMercuryTours
+# caseStudyFlipkart
